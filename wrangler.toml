@@ -17,11 +17,11 @@ OTHER_SERVER = "https://api.danmu.icu"
 
 # 2. 匹配配置
 ENABLE_ANIME_EPISODE_FILTER = true
-PLATFORM_ORDER = "bilibili1,qiyi,qq,youku,imgo,dandan"
+PLATFORM_ORDER = "bilibili1,qiyi,qq,youku,imgo,dandan,animeko"
 STRICT_TITLE_MATCH = false
 TITLE_TO_CHINESE = true
 ANIME_TITLE_SIMPLIFIED = true
-USE_BANGUMI_DATA = true
+USE_BANGUMI_DATA = false
 
 # 3. 弹幕配置
 CONVERT_TOP_BOTTOM_TO_SCROLL = true
