@@ -6,6 +6,7 @@ compatibility_flags = ["nodejs_compat"]
 
 [vars]
 TOKEN = "kangzai666"
+ADMIN_TOKEN = "kangzai"
 
 [[routes]]
 pattern = "danmu.kangz.top"
