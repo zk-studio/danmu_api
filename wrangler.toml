@@ -7,6 +7,8 @@ compatibility_flags = ["nodejs_compat"]
 [vars]
 TOKEN = "kangzai666"
 ADMIN_TOKEN = "kangzai"
+DEPLOY_PLATFROM_PROJECT = "danmu-api"
+DEPLOY_PLATFROM_ACCOUNT = "f233d1c8853e341b1aa087eab45308f1"
 
 [[routes]]
 pattern = "danmu.kangz.top"
