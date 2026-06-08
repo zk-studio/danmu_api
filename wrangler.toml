@@ -10,6 +10,36 @@ ADMIN_TOKEN = "kangzai"
 DEPLOY_PLATFROM_PROJECT = "danmu-api"
 DEPLOY_PLATFROM_ACCOUNT = "f233d1c8853e341b1aa087eab45308f1"
 
+# 1. 源配置
+SOURCE_ORDER = "bilibili,dandan,tencent,youku,iqiyi,imgo,douban,renren,hanjutv,animeko"
+MERGE_SOURCE_PAIRS = "dandan&bilibili&animeko,bilibili&dandan,tencent&youku&iqiyi,renren&hanjutv"
+OTHER_SERVER = "https://api.danmu.icu"
+
+# 2. 匹配配置
+ENABLE_ANIME_EPISODE_FILTER = true
+PLATFORM_ORDER = "bilibili1,qiyi,qq,youku,imgo,dandan"
+STRICT_TITLE_MATCH = false
+TITLE_TO_CHINESE = true
+ANIME_TITLE_SIMPLIFIED = true
+USE_BANGUMI_DATA = true
+
+# 3. 弹幕配置
+CONVERT_TOP_BOTTOM_TO_SCROLL = true
+DANMU_OUTPUT_FORMAT = "xml"
+LIKE_SWITCH = true
+GROUP_MINUTE = 1
+DANMU_LIMIT = 0
+DANMU_SIMPLIFIED_TRADITIONAL = "simplified"
+
+# 4. 缓存配置
+SEARCH_CACHE_MINUTES = 5
+COMMENT_CACHE_MINUTES = 8
+REMEMBER_LAST_SELECT = true
+
+# 5. 基础安全
+RATE_LIMIT_MAX_REQUESTS = 0
+
+
 [[routes]]
 pattern = "danmu.kangz.top"
 custom_domain = true
